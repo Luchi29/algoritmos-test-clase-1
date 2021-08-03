@@ -10,7 +10,10 @@ public class Potencia {
      * @return
      */
     public static Integer resolver(Integer base, Integer potencia) {
-        // TODO: implementar
-        return null;
+        int  resultado = 1;
+        for(int i = 0; i < potencia; i++) {
+            resultado *= base;
+        }
+        return resultado;
     }
 }
